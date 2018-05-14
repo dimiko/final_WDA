@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Hotel</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--  Icon-tab  -->
+        <link rel="icon" href="img/logo.png">
+
+        <!--  Bootstrap  -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.0.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+        <!-- Jquery DatePicker -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+        <script type="text/javascript"  src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+        <!--  fa icon  -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.11/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!--  Bootstrap  -->
+        <link rel="stylesheet" href="css/style.css"> 
+
+    </head>
+    <body>
+        <!--  navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html"><img src="img/logo.png"></a>
+                </div>
+
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
+                        <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+                        <li><a href="profile.html"><i class="fa fa-user"></i>Profile</a></li>
+                    </ul>           
+                </div><!--/.nav-collapse -->
+            </div><!--/.container-->
+        </nav>
+        <!--  /navbar -->
+
+        <div class="container" id="sdbar">
+            <div class="row">
+                <div class="col-12 col-md-12 col-xl-12 bd-content" role="main">
+                    <div id="hotelheader" class="col-12 col-md-12 col-xl-12">
+                        <div class="col-12 col-md-5">
+                            <h4>Megali Vretania Hotel - Athens, Syntagma</h4>
+                        </div>
+                        <div class="col-12 col-md-4 ratingrev">
+                            <h4>Reviews:</h4>
+                            <div class="ratingheader">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                                <span> | </span>
+                            </div>
+                            <div>
+                                <span><i class="fas fa-heart"></i></span>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-3 cost">
+                            <h4>Per Night: 500€</h4>
+                        </div>
+                    </div>
+                    <div class="col-md-12 imageroom">
+                        <img src="img/room-2.jpg"> 
+                    </div>
+                    <div id="hoteldetails" class="row col-12 col-md-12 col-xl-12">
+                        <div class="col-md-2 col-md-offset-1">
+                            <p>COUNT OF GUESTS</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p>TYPE OF ROOM</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p>PARKING</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p>WIFI</p>
+                        </div>
+                        <div class="col-md-2">
+                            <p>PET FRIENDLY</p>
+                        </div>
+                    </div>
+                    <div class="col-md-8" id="details">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet augue vitae lorem suscipit, 
+                            consequat congue sapien ornare. Morbi gravida faucibus nibh, et pretium lectus.</p>
+                        <button type="submit" class="btn room-btn">Go to Room Page</button>
+                    </div> 
+                    <div class="row total">
+                        <div class="col-md-3" id="totalcost">
+                            <p>Total Cost: 500€</p> 
+                        </div>
+                        <div class="col-md-9 book-elements">
+                            <div class="col-md-4 details">
+                                <p id="checkin">Check-in Date: 2018-04-27</p>
+                            </div>
+                            <div class="col-md-4 details">
+                                <p id="checkout">Check-out Date: 2018-04-30</p>
+                            </div>
+                            <div class="col-md-4 details">
+                                <p id="typeroom">Type Room: Double Room</p>
+                            </div>
+                        </div> 
+                    </div>
+
+                </div>
+            </div>            
+        </div>
+    </body>
+</html>

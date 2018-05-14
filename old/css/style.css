@@ -1,0 +1,229 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#top-menu{
+    font-size: 18px;
+    margin-right: 20px;
+    padding-top: 10px;
+}
+.navbar-default {
+    background-color: #f5f5f5;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+#top-menu li .active{
+    color: #288F98; 
+}
+#top-menu li a:hover{
+    color: #36BCBF;
+}
+#top-menu li i{
+    padding-right: 4px; 
+}
+navbar-header, img{
+    padding-left: 35px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+#video-background {
+    /*  making the video fullscreen  */
+    position: fixed;
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    height: auto;
+    z-index: -100;
+    margin-bottom: 0;
+}
+.home-search{
+    position: absolute;
+    bottom: 45%;
+    left: 0;
+    right: 0;
+}
+#field-bar{
+    background: rgba(0,0,0,.3);
+    padding: 8px;
+    -webkit-appearance: none;
+}
+#field-bar select, input{
+    width: 100%;
+    height: 70px;
+    padding-left: 20px;
+}
+.frm_search{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.form, .row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.iconform{
+    color: #288F98;
+    right: 30px;
+    top: 25px;
+    font-size: 20px;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 2;
+}
+.search-button{
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+#search-bar{
+    background: rgba(0,0,0,.3);
+    padding: 8px;
+    -webkit-appearance: none;
+}
+#search-bar, button{
+    width: 100%;
+}
+.btn{
+    border-radius: 0px;
+    background-color: white;
+}
+.btn:hover{
+    background-color: #36BCBF;
+}
+@media only screen and (max-width: 767px) {
+    nav button{
+        width: 43px;
+    }
+    .home-search{
+        bottom: 25%;
+    }
+}
+@media only screen and (max-width: 991px) {
+    .home-search{
+        bottom: 25%;
+    }
+}
+
+
+/* custom style for Profile Page  */
+
+#sdbar{
+    padding-top: 100px;
+}
+.bd-sidebar{
+    border-radius: 10px;
+    -webkit-box-shadow: 17px 26px 52px -16px rgba(40,143,152,0.26);
+    -moz-box-shadow: 17px 26px 52px -16px rgba(40,143,152,0.26);
+    box-shadow: 17px 26px 52px -16px rgba(40,143,152,0.26);
+    padding-top: 20px;
+}
+.bd-content{
+
+}
+#booking{
+    padding-left: 10px;
+    background-color: #288F98;
+    border-radius: 10px;
+}
+#sdbar, h3{
+    color: #B75B00;
+}
+#sdbar, p{
+    color: #000;
+    margin-bottom: 0px;
+}
+.main, h2{
+    color: white;
+    padding: 15px 15px 15px 15px;
+    margin-top: 0px;
+}
+.favorites h3{
+    color: #288F98;
+}
+.reviews h3{
+    color: #288F98;
+}
+/* Γιατί παίρνει το rating aαπό εδώ ??? */
+#sdbar, h3{
+    color: #B75B00;
+}
+.favorites p{
+    padding-bottom: 15px;
+}
+.rating{
+    padding-bottom: 15px;
+}
+.preview{
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+.preview img{
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+#image{
+    padding-left: 0px;
+}
+.line img{
+    width: 3px;
+    height: 130px;
+}
+#details, h3{
+    color: black;
+    margin-top: 0px;
+}
+#details h4{
+    color: #c7c6c6;
+}
+.room-btn{
+    width: 35%;
+    background-color: #288F98; 
+    border-radius: 4px;
+    position: absolute;
+    right: 0;
+    bottom: -10;
+    color: white;
+}
+#totalcost p{
+    background-color: darkgray;
+    padding: 7px;
+    color: white;
+}
+.total{
+    width: 100%;
+}
+.total p{
+    display:inline-block;   
+}
+.book-elements{
+    background-color: #e6e6e6;
+    padding: 7px;
+    padding-left: 15px;
+}
+.book-elements p{
+    color: #999;
+}
+@media only screen and (max-width: 991px) {
+    .bd-sidebar{
+        margin-bottom: 35px;
+    }
+    .bd-sidebar{
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
+        -moz-box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
+        box-shadow: 0px 0px 0px 0px rgba(255,255,255,1);
+    }
+    .line img{
+        display: none;
+    }
+    #details{
+        padding-top: 15px;
+        padding-left: 0px;
+    }
+    #totalcost, p{
+        padding-left: 0px;
+    }
+}
+
+
